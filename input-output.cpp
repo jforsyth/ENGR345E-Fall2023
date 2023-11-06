@@ -1,4 +1,8 @@
 /**
+* This example aligns with Section 3.1 from the textbook
+*/
+
+/**
  * Include the two libraries we will use
  * <iostream> allows to read from the terminal and to print data to the terminal
  * <string> allows the use of strings (sequences of characters)
