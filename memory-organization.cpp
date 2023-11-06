@@ -25,15 +25,15 @@ int main() {
     /**
      * See how a singular "object" is still an array of bytes
      */
-     unsigned int data = 0xabcdef12;
-     unsigned int* data_address = &data;
-     std::cout << "The object 'data' lives at " << std::hex << data_address << " and is " << sizeof(data) << " bytes long " << std::endl;
+    unsigned int data = 0xabcdef12;
+    unsigned int* data_address = &data;
+    std::cout << "The object 'data' lives at " << std::hex << data_address << " and is " << sizeof(data) << " bytes long " << std::endl;
 
-     uint8_t* bytePtr = (unsigned char*) &data;
-     std::cout << "The lowest byte of data[0] is " << std::hex << (int)bytePtr[0] << std::endl;
-     std::cout << "The lowest byte of data[1] is " << std::hex << (int)bytePtr[1] << std::endl;
-     std::cout << "The lowest byte of data[2] is " << std::hex << (int)bytePtr[2] << std::endl;
-     std::cout << "The lowest byte of data[3] is " << std::hex << (int)bytePtr[3] << std::endl;
+    unsigned char* bytePtr = (unsigned char*) &data;
+    std::cout << "The lowest byte of data[0] is " << std::hex << (int)bytePtr[0] << std::endl;
+    std::cout << "The lowest byte of data[1] is " << std::hex << (int)bytePtr[1] << std::endl;
+    std::cout << "The lowest byte of data[2] is " << std::hex << (int)bytePtr[2] << std::endl;
+    std::cout << "The lowest byte of data[3] is " << std::hex << (int)bytePtr[3] << std::endl;
 
 
 
