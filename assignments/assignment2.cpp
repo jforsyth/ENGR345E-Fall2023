@@ -70,7 +70,7 @@ int main()
 
     int min = -1;
     int max = -1;
-    int average = -1;
+    float average = -1;
 
     /**
      * Your code goes here...
